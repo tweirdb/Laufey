@@ -11,10 +11,12 @@ body {
   justify-content: center;
   text-align: center;
 }
+.decoracaofundo {
+  opacity: 0.4;
 
+}
 .mover {
   width: min(300px, 75vw);
-  border-radius: 50%;
   display: block;
   animation: 3s slideLeft ease-out;
 }
@@ -36,7 +38,7 @@ body {
   width: 0;
   white-space: nowrap;
   font-size: 20px;
-  animation: typing 3s steps(50, end) forwards, blink-caret 1s step-end infinite;
+  animation: typing 3s steps(50, end) forwards, blink-caret 3s step-end infinite;
 }
 
 .titulo {
